@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bootstrap Starter Template</title>
+        <title>Axis Infosys</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Bootstrap starter template">
-        <meta name="keywords" content="Bootstrap starter template, Starter template, Animate on scroll library, Hover CSS, Fontawesome implementation, Owl Carousel">
+        <meta name="description" content="Axis Infosys">
+        <meta name="keywords" content="Axis Infosys template, Starter template, Animate on scroll library, Hover CSS, Fontawesome implementation, Owl Carousel">
         <meta name="author" content="dewebkiller">
         <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">

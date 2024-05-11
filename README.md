@@ -1,5 +1,5 @@
-# Bootstrap starter template
-The starter template for the html and php project.
+# Axis Ibfosys
+The starter template for Axis Infosys.
 
 Fetures:
 1. Header
