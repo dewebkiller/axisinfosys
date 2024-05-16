@@ -1,4 +1,4 @@
-# Axis Ibfosys
+# Axis Infosys
 The starter template for Axis Infosys.
 
 Fetures:

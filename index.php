@@ -1,29 +1,25 @@
 <?php include_once('header.php'); ?>
-<section class="banner-wrapper">
+<div class="circular-text">
+    <a href="https://www.youtube.com" target="_blank">
+        <svg viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <path id="circle"
+      d="
+        M 50, 50
+        m -37, 0
+        a 37,37 0 1,1 74,0
+        a 37,37 0 1,1 -74,0"/>
+  </defs>
+  <text font-size="17">
+    <textPath xlink:href="#circle">
+     - Explore More - Explore More 
+    </textPath>
     
-    <div class="owl-carousel owl-theme">
-        
-        <div class="item">
-            <div class="banneroverlay"></div>
-            <img src="https://www.dewebkiller.com/standardhtmlimages/banner1.jpg">
-            <div class="banner-caption">
-                <h2>The easiest way to book reliable household help</h2>
-                <p>Friendly, experienced cleaners available on your schedule. <br>Just pick a time and we'll do the rest.</p>
-                <a href="#" class="dwk-btn hvr-float">Read More</a>
-            </div>
+  </text>
+</svg>
+<span><i class="fa fa-play"></i></span>
+</a>
         </div>
-        <div class="item">
-            <div class="banneroverlay"></div>
-            <img src="https://www.dewebkiller.com/standardhtmlimages/banner1.jpg">
-            <div class="banner-caption">
-                <h2>The easiest way to book reliable household help</h2>
-                <p>Friendly, experienced cleaners available on your schedule. <br>Just pick a time and we'll do the rest.</p>
-                <a href="#" class="dwk-btn hvr-float">Read More</a>
-            </div>
-        </div>
-        
-    </div>
-</section>
 <section class="content-wrapper section-padding">
     <div class="container">
         <div class="row">
