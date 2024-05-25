@@ -23,72 +23,61 @@ $(document).ready(function () {
         }, 600);
         return false;
     });
-    $(".fancybox").fancybox();
     //Add div clearfix after 3 list
     $("ul.services-ul li:nth-child(3n)").after("<div class='clearfix'></div>")
-});
-// Banner
-$('.owl-popular-courses').owlCarousel({
-    loop: true,
-    margin: 0,
-    nav: false,
-    dots: false,
-    autoplay: false,
-    lazyLoad: true,
-    center: false,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items:2
-        },
-        1000: {
-            items: 3
-        }
-    }
-});
-$('.owl-upcoming-courses').owlCarousel({
-    loop: true,
-    margin: 0,
-    nav: false,
-    dots: false,
-    autoplay: true,
-    lazyLoad: true,
-    center: false,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items:2
-        },
-        1000: {
-            items: 3
-        }
-    }
-});
-$('.owl-workshop').owlCarousel({
-    loop: true,
-    margin: 0,
-    nav: false,
-    dots: false,
-    autoplay: true,
-    lazyLoad: true,
-    center: false,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items:2
-        },
-        1000: {
-            items: 3
-        }
-    }
-});
+    var swiper = new Swiper(".swiper-popular-courses", {
+        slidesPerView: 3, 
+    });
 
+
+const sliderImages = new Swiper('.slider__images .swiper-container', { 
+    autoplay: true,
+	direction: 'vertical', 
+	slidesPerView: 1, 
+	spaceBetween: 32, 
+	mousewheel: true,
+	navigation: { 
+		nextEl: '.slider__next', 
+		prevEl: '.slider__prev'
+	},
+	grabCursor: true, 
+	
+	breakpoints: { 
+		0: {
+			direction: 'horizontal', 
+		},
+		768: { 
+			direction: 'vertical', 
+		}
+	}
+});
+var swiper2 = new Swiper(".swiper--bottom", {
+    spaceBetween: 10,
+    slidesPerView: 7,
+    loop: true,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+    speed:2000,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+  
+  
+  $('.swiper--bottom .swiper-slide').hover(function(){
+    swiper2.autoplay.stop();
+  }, function(){
+    swiper2.autoplay.start();
+  });
+  
+});
 
 // Fixed menu
 $("header").waypoint(function () {

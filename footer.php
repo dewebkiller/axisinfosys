@@ -2,39 +2,51 @@
     <div class="container">
         <!-- Three column Footer -->
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12">
+                <div class="footer-widget">
+                    <img src="images/logo.png" alt="Axis Infosys" class="footer-logo" />
+                    <ul>
+                        <li><i class="fa fa-home"></i> Gaighat udayapur</li>
+                        <li><i class="fa fa-phone"></i> 9841786680</li>
+                        <li><i class="fa fa-envelope"></i> <a href="mailto:info@axisinfosys.com">info@axisinfosys.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12">
+                <div class="footer-widget">
+                    <h3>Courses</h3>
+                    <ul>
+                        <li><a href="#">Computer Basic</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">Video Editin</a></li>
+                        <li><a href="#">Motion graphics</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12">
                 <div class="footer-widget">
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#"> About us</a></li>
+                        <li><a href="#">Blog</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="footer-widget">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="footer-widget">
-                    <h3>Our Gallery</h3>
-                    <ul class="footer-gallery">
-                        <li style="float: left;"><a data-fancybox="gallery" href="//c1.staticflickr.com/5/4265/35500273202_7b437aef0b_h.jpg"><img src="//c1.staticflickr.com/5/4265/35500273202_7b437aef0b_h.jpg" alt="" width="180" height="180"></a></li>
-                        <li style="float: left;"><a data-fancybox="gallery" href="//c1.staticflickr.com/1/867/40996993864_8ace9baf99_h.jpg"><img src="//c1.staticflickr.com/1/867/40996993864_8ace9baf99_h.jpg" alt="" width="180" height="180"></a></li>
-                        <li style="float: left;"><a data-fancybox="gallery" href="//c1.staticflickr.com/5/4211/35477406201_b13ffc37a9_c.jpg"><img src="//c1.staticflickr.com/5/4211/35477406201_b13ffc37a9_c.jpg" alt="" width="180" height="180"></a></li>
-                        <li style="float: left;"><a data-fancybox="gallery" href="//c1.staticflickr.com/6/5647/30305414704_776ffcc1b8_h.jpg"><img src="//c1.staticflickr.com/6/5647/30305414704_776ffcc1b8_h.jpg" alt="" width="180" height="180"></a></li>
-
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12">
+            <div class="footer-widget">
+            <h3>Get Connected</h3>
+                <ul class="footer-social d-flex mb-3">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+                    <h3>We accept</h3>
+                    <ul class="footer-payment d-flex">
+                        <li><img src="images/fonepay.png" alt="Fonepay" /></li>
+                        <li><img src="images/esewa.png" alt="Esewa" /></li>
+                        <li><img src="images/khalti.png" alt="Khalti" /></li>
                     </ul>
                 </div>
             </div>
@@ -44,16 +56,10 @@
 <section class="btm-footer">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-12 text-center">
                 <div class="copyright">
-                    <p>&copy; <?php echo date('Y');?>. <span>Business Name.</span> All Rights Reserved.</p>
+                    <p class="color-white">&copy; <?php echo date('Y');?>. <span>Axis Infosys.</span> All Rights Reserved.</p>
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="powered">
-                    <a href="https://murphystechnology.com.au" target="_blank" title="Murphys Technology"><img src="https://www.dewebkiller.com/standardhtmlimages/powered.png" alt="Murphys Technology" /></a>
-                </div>
-                <a href="#" class="scrollup"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
@@ -74,7 +80,7 @@
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/owl.carousel.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>

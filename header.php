@@ -12,8 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/layout.css" rel="stylesheet">
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.default.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/hover.css" rel="stylesheet">
@@ -106,7 +105,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                        <div class="btn btn-primary hvr-fade"><a href="#" class="color-white">Enquiry</a></div>
+                        <div class="btn btn-primary px-3 hvr-fade"><a href="#" class="color-white">Enquiry</a></div>
                     </div>
                 </div>
             </div>
@@ -118,11 +117,11 @@
 
                     <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 col-12 banner-left pull-left">
 
-                        <h5 class="btn btn-sm btn-white hvr-fade">Never stop learning</h5>
+                        <h5 class="btn btn-sm btn-white px-3 hvr-fade">Never stop learning</h5>
 
                         <h1>Grow up your <span class="color-white-textshadow">Skills</span> with our <span class="color-white-textshadow">courses </span> with <span class="color-white-textshadow">Pixel Infosys</span></h1>
                         <div class="banner-flex">
-                            <a href="#" class="btn btn-orange hvr-fade">Explore Path</a>
+                            <a href="#" class="btn btn-orange px-3 hvr-fade">Explore Path</a>
                             <div class="students-list">
                                 <ul class="std-faces">
                                     <li><img src="images/students.png" alt=""></li>
