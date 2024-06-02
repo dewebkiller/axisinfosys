@@ -27,6 +27,23 @@ $(document).ready(function () {
     $("ul.services-ul li:nth-child(3n)").after("<div class='clearfix'></div>")
     var swiper = new Swiper(".swiper-popular-courses", {
         slidesPerView: 3, 
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20
+            },
+            // when window width is >= 480px
+            480: {
+              slidesPerView: 1,
+              spaceBetween: 30
+            },
+            // when window width is >= 640px
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 40
+            }
+          }
     });
 
 
@@ -68,6 +85,23 @@ var swiper2 = new Swiper(".swiper--bottom", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 2,
+          spaceBetween: 10
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 3,
+          spaceBetween: 10
+        },
+        // when window width is >= 640px
+        1024: {
+          slidesPerView: 7,
+          spaceBetween: 10
+        }
+      }
   });
   
   

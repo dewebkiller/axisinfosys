@@ -12,6 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/layout.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
@@ -27,16 +28,16 @@
         <section class="btm-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 col-6 d-none d-sm-block">
                         <div class="logo"><img src="images/logo.png" alt="Axis Infosys"></div>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-12">
                         <div class="main-menu">
                             <nav class="navbar navbar-expand-lg">
-                                <a class="navbar-brand" href="#">Navigation</a>
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
+                                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Axis Infosys"></a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="nav navbar-nav">
@@ -104,7 +105,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 d-none d-sm-block">
                         <div class="btn btn-primary px-3 hvr-fade"><a href="#" class="color-white">Enquiry</a></div>
                     </div>
                 </div>
