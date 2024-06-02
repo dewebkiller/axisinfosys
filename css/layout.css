@@ -294,6 +294,9 @@ header {
 .navbar-fixed-top .main-menu {
   margin-top: 0;
 }
+.dropdown-menu .hvr-sweep-to-right:before {
+  background: var(--primary-dark) !important;
+}
 .banner-wrapper {
   position: relative;
   padding: 60px 0;
@@ -371,10 +374,33 @@ header {
   transform: translate(-30%, -50%);
   font-size: 45px;
 }
+/* Breadcrumb */
+.breadcrumb-wrapper {
+  background-size: cover;
+  padding: 100px 0;
+}
 /* Our Courses */
 .bg-curved-line {
   background: url(../images/heading-bg.png) no-repeat bottom center;
   margin-bottom: 30px;
+}
+.breadcrumb-content ul {
+  align-items: center;
+  justify-content: center;
+}
+.breadcrumb-content ul li {
+text-align: center;
+}
+.breadcrumb-content ul li {
+  border-right: 1px solid var(--color-border) ;
+  padding: 0 30px;
+}
+.breadcrumb-content ul li:last-child {
+  border-right: none;
+}
+.breadcrumb-content ul li a {
+  color: var(--primaryoff);
+
 }
 .dwk_tab_content .swiper-slide {
   padding: 25px;
@@ -747,7 +773,7 @@ footer {
   padding-left: 0;
 }
 .footer-bar li {
-  border-right: 1px solid #111;
+  border-right: 1px solid #535353;
   float: left;
   list-style: outside none none;
   padding: 8px 0;

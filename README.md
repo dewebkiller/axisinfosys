@@ -9,4 +9,4 @@ Fetures:
 5. CSS Variables
 6. Bootstrap 5.X
 7. AOS Animation
-8. Owl Carousel
+8. Swiper Slider

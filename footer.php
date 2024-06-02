@@ -71,7 +71,7 @@
                 <ul class="footer-bar">
                     <li><a href="./"><i class="fa fa-home"></i><br />Home</a></li>
                     <li><a href="tel:0435 596 481"><i class="fa fa-phone"></i><br />Phone</a></li>
-                    <li><a href="sms:0435 596 481"><i class="fa fa-comment-o"></i><br />SMS</a></li>
+                    <li><a href="sms:0435 596 481"><i class="fa fa-comment"></i><br />SMS</a></li>
                     <li><a href="mailto:vkabconstruction@gmail.com"><i class="fa fa-envelope"></i><br />Email</a></li>
                 </ul>
             </div>
