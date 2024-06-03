@@ -159,3 +159,15 @@ $("header").waypoint(function () {
 	   of last tab */
 	$('ul.dwk_tabs li').last().addClass("tab_last");
 	
+  document.addEventListener('DOMContentLoaded', function() {
+    const sidebar = document.querySelector('.sidebar-widget');
+    const offset = sidebar.offsetTop;
+
+    window.addEventListener('scroll', function() {
+      if (window.pageYOffset > offset - 120) { // 60 is the height of the fixed header
+        sidebar.classList.add('fixed-sidebar');
+      } else {
+        sidebar.classList.remove('fixed-sidebar');
+      }
+    });
+  });

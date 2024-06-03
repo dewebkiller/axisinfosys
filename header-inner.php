@@ -112,17 +112,5 @@
                 </div>
             </div>
         </section>
-        <section class="banner-wrapper breadcrumb-wrapper" style="background: url(images/breadcrumb.jpeg) no-repeat center center;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 breadcrumb-content text-center">
-                        <h1 class="color-white">About Us</h1>    
-                        <ul class="d-flex text-center">
-                            <li> <a href="./">Home</a></li>
-                            <li> <a href="./">About Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <?php include_once('breaddcrumb.php'); ?>
     </header>
