@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Axis Infosys</title>
+    <title>Axis Infosys | About us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Axis Infosys">
@@ -112,46 +112,5 @@
                 </div>
             </div>
         </section>
-        <section class="banner-wrapper">
-            <div class="container">
-                <div class="row">
-
-
-                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 col-12 banner-left pull-left">
-
-                        <h5 class="btn btn-sm btn-white px-3 hvr-fade">Never stop learning</h5>
-
-                        <h1>Grow up your <span class="color-white-textshadow">Skills</span> with our <span class="color-white-textshadow">courses </span> with <span class="color-white-textshadow">Pixel Infosys</span></h1>
-                        <div class="banner-flex">
-                            <a href="#" class="btn btn-orange px-3 hvr-fade">Explore Path</a>
-                            <div class="students-list">
-                                <ul class="std-faces">
-                                    <li><img src="images/students.png" alt=""></li>
-                                    <li><img src="images/students.png" alt=""></li>
-                                    <li><img src="images/students.png" alt=""></li>
-                                </ul>
-
-                            </div>
-                            <div class="banner-ratings">
-                                <ul class="star-ratings">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star-half"></i></li>
-                                </ul>
-                                <span>(100+ Reviews)</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 col-12 banner-right pull-left">
-                        <div class="btn-phone">
-                            <a href="tel:079878979" class="btn btn-red btn-lg hvr-fade">1300 937 775</a>
-                            <img src="images/banner-image.png" alt="Axis Infosys" />
-                            <em>We made sure <span class="color-red">99.99%</span> of our students are happy about our services.</em>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
     </header>

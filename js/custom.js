@@ -1,3 +1,6 @@
+function goBack() {
+  window.history.back()
+};
 $(document).ready(function () {
     AOS.init();
 //Hover Menu Dropdown in Bootstrap
@@ -164,7 +167,7 @@ $("header").waypoint(function () {
     const offset = sidebar.offsetTop;
 
     window.addEventListener('scroll', function() {
-      if (window.pageYOffset > offset - 120) { // 60 is the height of the fixed header
+      if (window.scrollY > offset - 120) { // 60 is the height of the fixed header
         sidebar.classList.add('fixed-sidebar');
       } else {
         sidebar.classList.remove('fixed-sidebar');

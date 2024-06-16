@@ -63,33 +63,33 @@
 
                                         </li>
                                         <li class="nav-item dropdown <?php
-                                                                        if (($curr_page == 'gallery.php')) {
+                                                                        if (($curr_page == 'courses.php')) {
                                                                             echo "active";
                                                                         }
                                                                         ?> ">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <a class="nav-link dropdown-toggle" href="courses.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Courses
                                             </a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><a class="dropdown-item hvr-sweep-to-right" href="#">Computer Basics</a></li>
-                                                <li><a class="dropdown-item hvr-sweep-to-right" href="#">graphic Design</a></li>
-                                                <li><a class="dropdown-item hvr-sweep-to-right" href="#">Vide Editing</a></li>
-                                                <li><a class="dropdown-item hvr-sweep-to-right" href="#">Motion Graphics</a></li>
+                                                <li><a class="dropdown-item hvr-sweep-to-right" href="courses.php">Computer Basics</a></li>
+                                                <li><a class="dropdown-item hvr-sweep-to-right" href="courses.php">graphic Design</a></li>
+                                                <li><a class="dropdown-item hvr-sweep-to-right" href="courses.php">Vide Editing</a></li>
+                                                <li><a class="dropdown-item hvr-sweep-to-right" href="courses.php">Motion Graphics</a></li>
                                             </ul>
                                         </li>
                                         <li class="nav-item <?php
-                                                            if (($curr_page == 'gallery.php')) {
+                                                            if (($curr_page == 'testimonials.php')) {
                                                                 echo 'active';
                                                             }
                                                             ?>">
-                                            <a class="nav-link" href="gallery.php">Success Stories </a>
+                                            <a class="nav-link" href="testimonials.php">Success Stories </a>
                                         </li>
                                         <li class="nav-item <?php
-                                                            if (($curr_page == 'gallery.php')) {
+                                                            if (($curr_page == 'coming-soon.php')) {
                                                                 echo 'active';
                                                             }
                                                             ?>">
-                                            <a class="nav-link" href="gallery.php">Blog </a>
+                                            <a class="nav-link" href="coming-soon.php">Blog </a>
                                         </li>
                                         <li class="nav-item <?php
                                                             if (($curr_page == 'contact.php')) {
